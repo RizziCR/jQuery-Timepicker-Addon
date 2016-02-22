@@ -1,4 +1,4 @@
-/*! jQuery Timepicker Addon - v1.5.2 - 2015-03-15
+/*! jQuery Timepicker Addon - v1.6.1 - 2015-11-14
 * http://trentrichardson.com/examples/timepicker
 * Copyright (c) 2015 Trent Richardson; Licensed MIT */
 
@@ -247,6 +247,28 @@
 		pmNames: ['p.m.', 'PM', 'P'],
 		isRTL: false
 	};
+
+// source: src/i18n/jquery-ui-timepicker-fa.js
+/* Persian translation for the jQuery Timepicker Addon */
+/* Written by Meysam Pour Ganji */
+
+    $.timepicker.regional['fa'] = {
+        timeOnlyTitle: 'انتخاب زمان',
+        timeText: 'زمان',
+        hourText: 'ساعت',
+        minuteText: 'دقیقه',
+        secondText: 'ثانیه',
+        millisecText: 'میلی ثانیه',
+        microsecText: 'میکرو ثانیه',
+        timezoneText: 'منطقه زمانی',
+        currentText: 'الان',
+        closeText: 'انتخاب',
+        timeFormat: 'HH:mm',
+        timeSuffix: '',
+        amNames: ['قبل ظهر', 'AM', 'A'],
+        pmNames: ['بعد ظهر', 'PM', 'P'],
+        isRTL: true
+    };
 
 // source: src/i18n/jquery-ui-timepicker-fi.js
 /* Finnish translation for the jQuery Timepicker Addon */
@@ -509,6 +531,28 @@
 		timeSuffix: '',
 		amNames: ['AM', 'AM', 'A'],
 		pmNames: ['PM', 'PM', 'P'],
+		isRTL: false
+	};
+
+// source: src/i18n/jquery-ui-timepicker-mk.js
+/* Macedonian cyrilic translation for the jQuery Timepicker Addon */
+/* Written by Vlatko Ristovski */
+
+	$.timepicker.regional['mk'] = {
+		timeOnlyTitle: 'Одберете време',
+		timeText: 'Време',
+		hourText: 'Час',
+		minuteText: 'Минути',
+		secondText: 'Секунди',
+		millisecText: 'Милисекунди',
+		microsecText: 'Микросекунди',
+		timezoneText: 'Временска зона',
+		currentText: 'Сега',
+		closeText: 'Затвори',
+		timeFormat: 'HH:mm',
+		timeSuffix: '',
+		amNames: ['AM', 'A'],
+		pmNames: ['PM', 'P'],
 		isRTL: false
 	};
 
